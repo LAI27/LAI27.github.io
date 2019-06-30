@@ -1,0 +1,98 @@
+#content{
+   width: 80%; 
+	margin: 0 auto; 
+  background-color: rgba(255, 228, 225,.2)
+}
+#portfolio1, #portfolio2, #portfolio3, #portfolio4, #portfolio5{ 
+	padding: 0px 75px 0px 75px;
+  margin: 0 auto; 
+  background-color: rgba(229, 231, 233,.2);
+}
+#portfolioimg1, #portfolioimg2, #portfolioimg3, #portfolioimg4, #portfolioimg5{
+  width: 150px;
+  height: auto;
+  display:block;
+  margin:auto;
+}
+figure {
+  text-align: center;
+  font-size: smaller;
+  text-indent: 0;
+  color: white;
+}
+#header {
+    padding-top: 50px;
+  padding-bottom: 20px; 
+  color: White;
+ font-family: 'Dawning of a New Day';
+  font-size: 55px;
+  ;
+}
+#picture {
+   width: 170px;
+  height: auto;
+  border-width: 10px;
+  border-style: solid;
+  border-color: rgba(255, 228, 225,.3)
+}
+#icon1, #icon2, #icon3, #icon4, #icon5 {
+  color: white;
+  width:100%;
+   text-align: center;
+  font-size: 30px;
+  font-family: 'Flamenco';
+}
+p{
+  padding: 0px 75px 0px 75px;
+  font-family: 'Flamenco';
+  font-size: 20px;
+  color: white;
+  text-indent: 50px;
+}
+ul{
+  /*padding: 0px 75px 0px 75px;*/
+  font-family: 'Flamenco';
+  font-size: 20px;
+  color: white;
+  text-indent: 50px;
+}
+a:link, a{
+  /*padding: 0px 75px 0px 75px;*/
+  font-family: 'Flamenco';
+  font-size: 20px;
+  color: rgb(242, 242, 242);
+  text-decoration: underline;
+  text-align: center;
+}
+#currentcourses, #nextcourses{
+  font-family: 'Flamenco';
+  font-size: 20px;
+  color: white;
+}
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: rgba(0,0,0,0.1);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: rgba(0,0,0,0.1);
+    display: none;
+    /*overflow: hidden;*/
+}
