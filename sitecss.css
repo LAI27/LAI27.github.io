@@ -23,12 +23,12 @@ p{
   font-family: 'Baskervville';font-size: 18px;
 }
 #picture {
-   width: 315px;
+   width: 250px;
   height: auto;
   border-width: 10px;
   border-style: solid;
-  /*margin-left: 30%;
-margin-right: 30%;*/
+  margin-left: 30%;
+margin-right: 30%;
   border-color: rgba(255, 228, 225,.3)
 }
 #paragraphtext {
@@ -53,3 +53,26 @@ margin-right: 30%;*/
    color: white;
    text-align: center;
 }
+.centered-text {
+  text-align: center;
+}
+.text-margin{
+  margin-left: 125px;
+  margin-right: 125px;
+}
+#portfolio1, #portfolio2, #portfolio3, #portfolio4, #portfolio5{ 
+	padding: 0px 75px 0px 75px;
+  margin: 0 auto; 
+  background-color: rgba(229, 231, 233,.2);
+}
+#portfolioimg1, #portfolioimg2, #portfolioimg3, #portfolioimg4, #portfolioimg5{
+  width: 150px;
+  height: auto;
+  display:block;
+  margin:auto;
+}
+figure {
+  text-align: center;
+  font-size: smaller;
+  text-indent: 0;
+  color: white;
